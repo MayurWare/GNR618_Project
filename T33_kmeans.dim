@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dimap_Document name="T33_kmeans.dim">
+    <Metadata_Id>
+        <METADATA_FORMAT version="2.12.1">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BEAM-DATAMODEL-V1</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_SERIES>BEAM-PRODUCT</DATASET_SERIES>
+        <DATASET_NAME>T33_kmeans</DATASET_NAME>
+    </Dataset_Id>
+    <Production>
+        <DATASET_PRODUCER_NAME />
+        <PRODUCT_TYPE>Unknown Sensor Type_CLUSTERS</PRODUCT_TYPE>
+    </Production>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 44N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator"], 
+               PARAMETER["central_meridian", 81.0], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32644"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <IMAGE_TO_MODEL_TRANSFORM>43.239999999999945,0.0,0.0,-43.239999999999945,294120.46298302384,3455214.70610162</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Index_Coding name="Cluster_classes">
+        <Index>
+            <INDEX_NAME>class_1</INDEX_NAME>
+            <INDEX_VALUE>0</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 0, Center(Singh_i6SD_CD=0.005, Singh_i6SD_Dbl=0.012, Singh_i6SD_Hlx=0.004, Singh_i6SD_OD=0.006, Singh_i6SD_Odd=0.028, Singh_i6SD_Vol=0.034)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_2</INDEX_NAME>
+            <INDEX_VALUE>1</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 1, Center(Singh_i6SD_CD=0.059, Singh_i6SD_Dbl=0.079, Singh_i6SD_Hlx=0.034, Singh_i6SD_OD=0.062, Singh_i6SD_Odd=0.415, Singh_i6SD_Vol=0.4)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_3</INDEX_NAME>
+            <INDEX_VALUE>2</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 2, Center(Singh_i6SD_CD=0.183, Singh_i6SD_Dbl=0.2, Singh_i6SD_Hlx=0.098, Singh_i6SD_OD=0.182, Singh_i6SD_Odd=1.607, Singh_i6SD_Vol=1.295)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_4</INDEX_NAME>
+            <INDEX_VALUE>3</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 3, Center(Singh_i6SD_CD=0.382, Singh_i6SD_Dbl=0.418, Singh_i6SD_Hlx=0.176, Singh_i6SD_OD=0.376, Singh_i6SD_Odd=5.346, Singh_i6SD_Vol=2.165)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_5</INDEX_NAME>
+            <INDEX_VALUE>4</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 4, Center(Singh_i6SD_CD=0.457, Singh_i6SD_Dbl=0.583, Singh_i6SD_Hlx=0.196, Singh_i6SD_OD=0.46, Singh_i6SD_Odd=18.893, Singh_i6SD_Vol=2.8)</INDEX_DESCRIPTION>
+        </Index>
+    </Index_Coding>
+    <Raster_Dimensions>
+        <NCOLS>880</NCOLS>
+        <NROWS>1690</NROWS>
+        <NBANDS>1</NBANDS>
+    </Raster_Dimensions>
+    <Data_Access>
+        <DATA_FILE_FORMAT>ENVI</DATA_FILE_FORMAT>
+        <DATA_FILE_FORMAT_DESC>ENVI File Format</DATA_FILE_FORMAT_DESC>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="T33_kmeans.data/class_indices.hdr" />
+            <BAND_INDEX>0</BAND_INDEX>
+        </Data_File>
+    </Data_Access>
+    <Image_Display>
+        <Band_Statistics>
+            <BAND_INDEX>0</BAND_INDEX>
+            <STX_MIN>0.0</STX_MIN>
+            <STX_MAX>4.0</STX_MAX>
+            <STX_MEAN>0.375</STX_MEAN>
+            <STX_STD_DEV>0.7465077356021796</STX_STD_DEV>
+            <STX_RES_LEVEL>3</STX_RES_LEVEL>
+            <HISTOGRAM>17570,3453,1671,554,72</HISTOGRAM>
+            <NUM_COLORS>5</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.0</SAMPLE>
+                <LABEL>class_1</LABEL>
+                <COLOR red="232" green="237" blue="174" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>1.0</SAMPLE>
+                <LABEL>class_2</LABEL>
+                <COLOR red="98" green="46" blue="179" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>2.0</SAMPLE>
+                <LABEL>class_3</LABEL>
+                <COLOR red="186" green="166" blue="187" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>3.0</SAMPLE>
+                <LABEL>class_4</LABEL>
+                <COLOR red="8" green="56" blue="151" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>4.0</SAMPLE>
+                <LABEL>class_5</LABEL>
+                <COLOR red="10" green="235" blue="165" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+    </Image_Display>
+    <Image_Interpretation>
+        <Spectral_Band_Info>
+            <BAND_INDEX>0</BAND_INDEX>
+            <BAND_DESCRIPTION>Class_indices</BAND_DESCRIPTION>
+            <BAND_NAME>class_indices</BAND_NAME>
+            <BAND_RASTER_WIDTH>880</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1690</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint8</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <INDEX_CODING_NAME>Cluster_classes</INDEX_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>255.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>43.239999999999945,0.0,0.0,-43.239999999999945,294120.46298302384,3455214.70610162</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+    </Image_Interpretation>
+    <Dataset_Sources>
+        <MDElem name="metadata">
+            <MDElem name="Abstracted_Metadata">
+                <MDATTR name="PRODUCT" desc="Product name" unit="" type="ascii" mode="rw">T33_kmeans</MDATTR>
+                <MDATTR name="PRODUCT_TYPE" desc="Product type" unit="" type="ascii" mode="rw">Unknown Sensor Type_CLUSTERS</MDATTR>
+                <MDATTR name="SPH_DESCRIPTOR" desc="Description" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="MISSION" desc="Satellite mission" unit="" type="ascii" mode="rw">BEAM-DIMAP</MDATTR>
+                <MDATTR name="ACQUISITION_MODE" desc="Acquisition mode" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="antenna_pointing" desc="Right or left facing" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="BEAMS" desc="Beams used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="SWATH" desc="Swath name" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="PROC_TIME" desc="Processed time" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="Processing_system_identifier" desc="Processing system identifier" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="orbit_cycle" desc="Cycle" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="REL_ORBIT" desc="Track" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="ABS_ORBIT" desc="Orbit" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="STATE_VECTOR_TIME" desc="Time of orbit state vector" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="VECTOR_SOURCE" desc="State vector source" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="incidence_near" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="incidence_far" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="slice_num" desc="Slice number" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="data_take_id" desc="Data take identifier" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="first_line_time" desc="First zero doppler azimuth time" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="last_line_time" desc="Last zero doppler azimuth time" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="first_near_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="first_near_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="first_far_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="first_far_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_near_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_near_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_far_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_far_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="PASS" desc="ASCENDING or DESCENDING" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="SAMPLE_TYPE" desc="DETECTED or COMPLEX" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="mds1_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="mds2_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="mds3_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="mds4_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="polsar_data" desc="Polarimetric Matrix" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="algorithm" desc="Processing algorithm" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="azimuth_looks" desc="" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_looks" desc="" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_spacing" desc="Range sample spacing" unit="m" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="azimuth_spacing" desc="Azimuth sample spacing" unit="m" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="pulse_repetition_frequency" desc="PRF" unit="Hz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="radar_frequency" desc="Radar frequency" unit="MHz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="line_time_interval" desc="" unit="s" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="total_size" desc="Total product size" unit="MB" type="uint32" mode="rw">99999</MDATTR>
+                <MDATTR name="num_output_lines" desc="Raster height" unit="lines" type="uint32" mode="rw">1690</MDATTR>
+                <MDATTR name="num_samples_per_line" desc="Raster width" unit="samples" type="uint32" mode="rw">880</MDATTR>
+                <MDATTR name="subset_offset_x" desc="X coordinate of UL corner of subset in original image" unit="samples" type="uint32" mode="rw">0</MDATTR>
+                <MDATTR name="subset_offset_y" desc="Y coordinate of UL corner of subset in original image" unit="samples" type="uint32" mode="rw">0</MDATTR>
+                <MDATTR name="srgr_flag" desc="SRGR applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="avg_scene_height" desc="Average scene height ellipsoid" unit="m" type="float64" mode="rw">0.0</MDATTR>
+                <MDATTR name="map_projection" desc="Map projection applied" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="is_terrain_corrected" desc="orthorectification applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="DEM" desc="Digital Elevation Model used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="geo_ref_system" desc="geographic reference system" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="lat_pixel_res" desc="pixel resolution in geocoded image" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="lon_pixel_res" desc="pixel resolution in geocoded image" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="slant_range_to_first_pixel" desc="Slant range to 1st data sample" unit="m" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ant_elev_corr_flag" desc="Antenna elevation applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="range_spread_comp_flag" desc="range spread compensation applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="replica_power_corr_flag" desc="Replica pulse power correction applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="abs_calibration_flag" desc="Product calibrated" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="calibration_factor" desc="Calibration constant" unit="dB" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="chirp_power" desc="Chirp power" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="inc_angle_comp_flag" desc="incidence angle compensation applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="ref_inc_angle" desc="Reference incidence angle" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ref_slant_range" desc="Reference slant range" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ref_slant_range_exp" desc="Reference slant range exponent" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="rescaling_factor" desc="Rescaling factor" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_sampling_rate" desc="Range Sampling Rate" unit="MHz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_bandwidth" desc="Bandwidth total in range" unit="MHz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="azimuth_bandwidth" desc="Bandwidth total in azimuth" unit="Hz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="multilook_flag" desc="Multilook applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="coregistered_stack" desc="Coregistration applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="external_calibration_file" desc="External calibration file used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="orbit_state_vector_file" desc="Orbit file used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="metadata_version" desc="AbsMetadata version" unit="" type="ascii" mode="rw">6.0</MDATTR>
+                <MDElem name="Orbit_State_Vectors" />
+                <MDElem name="SRGR_Coefficients" />
+                <MDElem name="Doppler_Centroid_Coefficients" />
+            </MDElem>
+            <MDElem name="Cluster_Analysis">
+                <MDElem name="class.0">
+                    <MDATTR name="cluster_center.Singh_i6SD_CD" type="float64">0.005489792675971253</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Dbl" type="float64">0.012462186308033436</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Hlx" type="float64">0.0035068443573457934</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_OD" type="float64">0.006472559947872252</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Odd" type="float64">0.02790228548369414</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Vol" type="float64">0.0344457883571245</MDATTR>
+                </MDElem>
+                <MDElem name="class.1">
+                    <MDATTR name="cluster_center.Singh_i6SD_CD" type="float64">0.05931734434622809</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Dbl" type="float64">0.07913274958866102</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Hlx" type="float64">0.033842813074339</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_OD" type="float64">0.06203331356317069</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Odd" type="float64">0.41470381633546693</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Vol" type="float64">0.3995362375784839</MDATTR>
+                </MDElem>
+                <MDElem name="class.2">
+                    <MDATTR name="cluster_center.Singh_i6SD_CD" type="float64">0.18273280937853523</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Dbl" type="float64">0.19992690861820217</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Hlx" type="float64">0.09755059466757744</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_OD" type="float64">0.18244594617030319</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Odd" type="float64">1.6071285299019806</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Vol" type="float64">1.2954224159950065</MDATTR>
+                </MDElem>
+                <MDElem name="class.3">
+                    <MDATTR name="cluster_center.Singh_i6SD_CD" type="float64">0.3818525106382206</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Dbl" type="float64">0.41803801074064706</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Hlx" type="float64">0.17589267694079389</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_OD" type="float64">0.37601958200437585</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Odd" type="float64">5.346146391612833</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Vol" type="float64">2.1649444587305244</MDATTR>
+                </MDElem>
+                <MDElem name="class.4">
+                    <MDATTR name="cluster_center.Singh_i6SD_CD" type="float64">0.4574875715428324</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Dbl" type="float64">0.5827706464111377</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Hlx" type="float64">0.195714156079249</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_OD" type="float64">0.4600052328757932</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Odd" type="float64">18.89284907355247</MDATTR>
+                    <MDATTR name="cluster_center.Singh_i6SD_Vol" type="float64">2.8001509705077585</MDATTR>
+                </MDElem>
+            </MDElem>
+            <MDElem name="Processing_Graph">
+                <MDElem name="node.0">
+                    <MDATTR name="id" type="ascii" mode="rw">KMeansClusterAnalysis$177C42F849B</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">KMeansClusterAnalysis</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Cluster Analysis</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">5.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Performs a K-Means cluster analysis.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Ralf Quast, Marco Zuehlke</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2008 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2021-02-21T10:43:04.477Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="source" type="ascii" mode="rw">file:/E:/4.%20SPRING%202021/GNR618/Group_35/T3_Matrix/T3/T33.bin.hdr</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="randomSeed" type="ascii">31415</MDATTR>
+                        <MDATTR name="iterationCount" type="ascii">10</MDATTR>
+                        <MDATTR name="clusterCount" type="ascii">5</MDATTR>
+                        <MDATTR name="sourceBandNames" type="ascii">Singh_i6SD_CD,Singh_i6SD_Dbl,Singh_i6SD_Hlx,Singh_i6SD_OD,Singh_i6SD_Odd,Singh_i6SD_Vol</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.1">
+                    <MDATTR name="id" type="ascii" mode="rw">Write$177C42F84A1</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Write</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">5.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Writes a data product to a file.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Marco Zuehlke, Norman Fomferra</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.3</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2010 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2021-02-21T10:43:04.482Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/E:/4.%20SPRING%202021/GNR618/T33_kmeans.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="writeEntireTileRows" type="ascii">true</MDATTR>
+                        <MDATTR name="file" type="ascii">E:\4. SPRING 2021\GNR618\T33_kmeans.dim</MDATTR>
+                        <MDATTR name="deleteOutputOnFailure" type="ascii">true</MDATTR>
+                        <MDATTR name="formatName" type="ascii">BEAM-DIMAP</MDATTR>
+                        <MDATTR name="clearCacheAfterRowWrite" type="ascii">false</MDATTR>
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+        </MDElem>
+    </Dataset_Sources>
+</Dimap_Document>
